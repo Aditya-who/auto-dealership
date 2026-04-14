@@ -5,6 +5,11 @@ body {
   color: white;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .container {
   padding: 20px;
 }
@@ -20,10 +25,33 @@ body {
   padding: 15px;
   border-radius: 12px;
   transition: 0.3s;
+  border: 1px solid #334155;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: translateY(-4px);
+}
+
+.card-link {
+  display: block;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 8px 0 6px;
+}
+
+.card p {
+  margin: 0;
+  color: #93c5fd;
+  font-weight: 600;
 }
 
 .layout {
